@@ -71,6 +71,12 @@ public class E2E_ProjectFixDel {
         variables = new HashMap<String, String>();
         variables.put("id",Id);
         variables.put("userID", user_Id);
+
+//        เอาไว้พิม แมพ
+//        for (Map.Entry<String,String> entry : variables.entrySet())
+//            System.out.println("Key = " + entry.getKey() +
+//                    ", Value = " + entry.getValue());
+
     }
 
     @Test(dependsOnMethods = {"memberOf"})
